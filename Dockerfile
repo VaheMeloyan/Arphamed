@@ -1,22 +1,22 @@
-FROM node:20.11-alpine as build
+# FROM node:20.11-alpine as build
 
-WORKDIR /app
+# WORKDIR /app
 
-COPY package.json .
+# COPY package.json .
 
-COPY . .
+# COPY . .
 
-RUN yarn
+# RUN yarn
 
-RUN npm audit fix --force
+# RUN npm audit fix --force
 
-RUN npm run build
+# RUN npm run build
 
-FROM nginx:1.21.6-alpine
+# FROM nginx:1.21.6-alpine
 
-COPY --from=build /app/dist /usr/share/nginx/html
+# COPY --from=build /app/dist /usr/share/nginx/html
 
-COPY /nginx-custom.conf /etc/nginx/conf.d/default.conf
+# COPY /nginx-custom.conf /etc/nginx/conf.d/default.conf
 
 
-EXPOSE 8092
+# EXPOSE 8092
