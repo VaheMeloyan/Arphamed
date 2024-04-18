@@ -6,7 +6,7 @@ COPY package.json .
 
 COPY . .
 
-RUN npm clean-install
+RUN yarn
 
 RUN npm audit fix --force
 
