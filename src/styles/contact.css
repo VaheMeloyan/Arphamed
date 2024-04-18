@@ -1,0 +1,117 @@
+.contactGreenBar {
+  width: 25vw;
+  margin-bottom: 10vh;
+  padding: 3%;
+  color: white;
+  background-color: #01dba4;
+}
+
+.contPrimTxt {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.contactGreenBarTxt {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.contactCardIconCont {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.contactCardTxt {
+  display: flex;
+  width: 80vw;
+  flex-direction: column;
+}
+
+.contactCardTxt p {
+  margin-bottom: 1%;
+}
+
+.contactCard {
+  display: flex;
+  margin-bottom: 3%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.cardsTxtSec {
+  opacity: 0.9;
+  font-size: 12px;
+}
+
+.contSecTxt {
+  opacity: 0.9;
+}
+
+.inputIcon {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/heart.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+  transform: translateY(-50%);
+}
+
+.inpWrapper {
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.RegFormInput {
+  padding: 4%;
+  padding-left: 15%;
+  width: 25vw;
+}
+
+.contRegInfo {
+  width: 35vw;
+}
+
+.RegTxtPrim {
+  color: #033b4a;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.RegTxtSec {
+  font-size: 14px;
+  color: #999999;
+  font-weight: 300;
+}
+
+.contactRegister {
+  width: 35%;
+}
+
+.contactContainer {
+  width: 50%;
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.btnSubmit {
+  width: 10vw;
+  height: 6vh;
+  color: white;
+  border: 1px solid white;
+  background: #033b4a;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btnSubmit:hover {
+  background-color: #01d6a4;
+  transition: 0.3s;
+}

@@ -1,0 +1,17 @@
+//
+// import './js/jquery.min.js'
+// import './js/jquery.easing.js'
+// import './js/jquery-waypoints.js'
+// import './js/jquery-validate.js'
+// import './js/owl.carousel.js'
+//import './js/jquery.prettyPhoto.js'
+// import './js/numinate.min.js'
+// import './js/jquery.event.move.js'
+// import './js/jquery.twentytwenty.js'
+// import './js/booked-calendar.js'
+// import './js/main.js'
+import jQuery from 'jquery'
+import $ from 'jquery'
+import changeLayoutMode from 'jquery'
+import revert from 'jquery'
+export {jQuery,$,changeLayoutMode,revert}
