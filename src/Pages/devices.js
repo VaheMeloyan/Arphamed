@@ -884,7 +884,8 @@ function Devices() {
                       <div className="col-lg-7 col-md-12 featured-content featured-content-post">
                         <div className="post-title featured-title">
                           <h5>
-                            <Link to="/single-blog">
+                            <Link to="/single-blog"
+                              state={{ to: dynamic.to, from: 'devices' }}>
                               {dynamic.title}
                             </Link>
                           </h5>
