@@ -730,8 +730,12 @@ function Devices() {
                   <div key={dynamic.id} className="product col-md-3 col-sm-6 col-xs-12">
                     <div className="ttm-product-box">
                       {/* ttm-product-box-inner */}
-                      <div className="ttm-product-box-inner" style={{ cursor: 'pointer' }} onClick={() => { window.location.pathname = '/product-details'; }}>
-                        <div className="ttm-shop-icon">
+                      <div className="ttm-product-box-inner" style={{ height: '250px', cursor: 'pointer' }} onClick={() => {
+                        navigate('/product-details', {
+                          state: { id: dynamic.id, src: dynamic.img }
+                        });
+                      }}>
+                        <div className="ttm-shop-icon" >
                           <div className="product-btn">
                             <a href="home-shop.html#" className="add-to-cart-btn">
                               <i className="ti ti-shopping-cart" />

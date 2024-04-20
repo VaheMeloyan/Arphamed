@@ -57,6 +57,7 @@ function App() {
         <Route path="dental-services" element={<Dental />} />
         <Route path="cardiology-services" element={<Cardio />} />
         <Route path="devices" element={<Devices />} />
+        <Route path='accessories' element={<Devices />} />
         <Route path="contacts" element={<ContactUs />} />
         <Route path="faq" element={<Faq />} />
         <Route path="product-details" element={<Product />} />
